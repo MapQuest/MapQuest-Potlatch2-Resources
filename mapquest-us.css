@@ -27,7 +27,9 @@ way[highway=primary],way[highway=primary_link],
 way[highway=secondary],way[highway=secondary_link],
 way[highway=tertiary],way[highway=tertiary_link],
 way[highway=residential]                             { text: name; text-color: black; font-size: 10; text-position: line; text-halo-color: white; text-halo-radius: 2; }
-way[highway=motorway],way[highway=motorway_link]    { z-index: 9; color: #0040ff; width: 5; casing-color: #2e4880; casing-width: 8; }
+way[highway=motorway]                               { z-index: 9; color: #6c91d9; width: 5; casing-color: #495f8c; casing-width: 8; }
+way[highway=motorway]                               { z-index: 10; color: #d3dbeb; width: 2; } /* centerline */
+way[highway=motorway_link]                           { z-index: 9; color: #dcbf95; width: 3; casing-color: #b89e7d; casing-width: 5; }
 way[highway=trunk],way[highway=trunk_link]          { z-index: 9; color: #fac87d; width: 3; casing-color: #d0a14a; casing-width: 5; }
 way[highway=primary],way[highway=primary_link]      { z-index: 8; color: #E46D71; width: 7; casing-color: black; casing-width: 8; }
 way[highway=secondary],way[highway=secondary_link]  { z-index: 7; color: #FDBF6F; width: 7; casing-width: 8; }
