@@ -30,12 +30,13 @@ way[highway=residential]                             { text: name; text-color: b
 way[highway=motorway]                               { z-index: 9; color: #6c91d9; width: 5; casing-color: #495f8c; casing-width: 8; }
 way[highway=motorway]                               { z-index: 10; color: #d3dbeb; width: 2; } /* centerline */
 way[highway=motorway_link]                           { z-index: 9; color: #dcbf95; width: 3; casing-color: #b89e7d; casing-width: 5; }
-way[highway=trunk],way[highway=trunk_link]          { z-index: 9; color: #fac87d; width: 3; casing-color: #d0a14a; casing-width: 5; }
-way[highway=primary],way[highway=primary_link]      { z-index: 8; color: #E46D71; width: 7; casing-color: black; casing-width: 8; }
-way[highway=secondary],way[highway=secondary_link]  { z-index: 7; color: #FDBF6F; width: 7; casing-width: 8; }
-way[highway=tertiary],way[highway=unclassified]     { z-index: 6; color: #FEFECB; width: 5; casing-width: 7; }
-way[highway=residential]                            { z-index: 5; color: #E8E8E8; width: 5; casing-color: gray; casing-width: 7; }
-way[highway=service]                                { color: white; width: 3; casing-width: 5; }
+way[highway=trunk],way[highway=trunk_link],          /* these are combined in the MapQuest style, so will be hard to distinguish when editing */
+way[highway=primary],way[highway=primary_link]      { z-index: 8; color: #f5d290; width: 4; casing-color: #d0a14a; casing-width: 6; }
+way[highway=secondary],way[highway=secondary_link]  { z-index: 7; color: #f6f0a3; width: 4; casing-color: #ccad70; casing-width: 6; }
+way[highway=tertiary],way[highway=tertiary_link],
+way[highway=unclassified],way[highway=unclassified_link],
+way[highway=residential],way[highway=residential_link],
+way[highway=service],way[highway=road]               { color: #ffffff; width: 4; casing-color: #b3b1b2; casing-width: 6; }
 
 /* Pedestrian precincts need to be treated carefully. Only closed-loops with an explicit
 area=yes tag should be filled. The below doesn't yet work as intended. */
