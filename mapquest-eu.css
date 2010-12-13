@@ -158,7 +158,7 @@ way[bridge=yes], way[bridge=viaduct], way[bridge=suspension]
     { z-index: 3; color: black; width: eval('_width+3'); }
 
 /* Oneway */
-/*way[oneway=yes] { z-index: 10; color: #444444; width: 3; dashes: 15,25; line-style: arrows; }*/
+way[oneway=yes] { z-index: 15; color: #606060; width: 2; dashes: 10,40; line-style: arrows; }
 
 
 /* Change the road colour based on dynamically set "highlighted" tag (see earlier) */
