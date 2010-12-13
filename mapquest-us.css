@@ -61,7 +61,7 @@ way[leisure=park],way[leisure=playground],
 way[landuse=recreation_ground],
 way[leisure=nature_reserve],[leisure=common],
 way[leisure=pitch]                          { width: 0; fill-color: #00a635; fill-opacity: 0.2; }
-way[building=yes]                           { width: 0; fill-color: #999999; fill-opacity: 0.4; }
+way[building=yes]                           { width: 0; fill-color: #cc6ec7; fill-opacity: 0.4; }
 
 /* Addressing. Nodes with addresses *and* match POIs should have a poi icon, so we put addressing first */ 
 
