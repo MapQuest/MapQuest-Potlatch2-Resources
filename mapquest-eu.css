@@ -45,7 +45,9 @@ way[highway=pedestrian] :area  { color: #555555; width: 1; fill-color: #ddddee; 
 
 
 way[highway=path],way[highway=pedestrian],
-way[highway=footway],way[highway=track]      { color: #808040; width: 1.5; }
+way[highway=footway],way[highway=track]      { color: #e52540; width: 1.5; dashes: 4,4; }
+
+way[highway=cycleway],way[highway=bridleway] { color: #8080bd; width: 1.5; dashes: 4,4; }
 
 way[waterway=river], way[waterway=canal] { color: blue; width: 2; text:name; text-color:blue; font-size:9; text-position: offset; text-offset: 7;}
 
